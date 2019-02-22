@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            <div class="header-logo">
+                <img src="assets/img/logo.jpg" alt="logo">
+            </div>
+            <div class="header-title">
+                <p>Lorem ipsum dolor sit amet <br class="br-text"> consectetur adipisicing elit.</p>
+            </div>
+            <div class="header-button_call">
+                <button>Заказать звонок</button>
+                <p>+7 937 99 92</p>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">О компании</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Услуги и цены</a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">Наши работы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Новости</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Продукция</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Личный кабинет</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/slider-item.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slider-item.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slider-item.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="content">
+                  <div class = "content-wrapper">
+                    <div class="main-content">
+                        <div class="job-desc">
+                          <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, repudiandae tempora quis beatae quidem est corporis laboriosam delectus. Expedita molestiae officia tenetur tempore qui ipsum dicta repellat, architecto velit. Facilis.</p>
+                          <button>Посмотреть работы</button>
+                        </div>
+                        <div class="registration">
+                              <form method="post" id="ajax_form" action="" >
+                                  <h2>Отправьте заявку и получите стоимость работ!</h2>
+                                  <i class="fas fa-user-alt"> Ваше имя</i>
+                                  <input type="text" name="name"/><br>
+                                  <i class="fas fa-mobile-alt"> Ваш телефон</i>
+                                  <input type="text" name="phonenumber" /><br>
+                                  <input type="button" id="btn" value="Получить стоимость" />
+                                  <p>*Данные не передаются третьим лицам</p>
+                              </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+                
+    </main>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

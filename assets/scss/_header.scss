@@ -1,0 +1,138 @@
+header {
+    width: 100%;
+
+    & .container-fluid {
+        padding:20px 60px;
+        @media(max-width: 990px){
+           padding-bottom: 0px;
+        }
+        @media(max-width: 500px){
+            padding: 5px 30px;
+         }
+    }
+}
+
+.header-logo{
+    @media(max-width: 750px){
+        margin-left: 70px;
+    }
+    @media(max-width: 700px){
+        margin-left: 40px;
+}
+@media(max-width: 600px){
+    margin-left: 20px;
+}
+
+@media(max-width: 550px){
+    margin-left: 0px;
+}
+@media(max-width: 420px){
+    img{
+       width: 80%; 
+    }
+    
+}
+}
+
+.header-button_call {
+    p{
+        margin-top: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    @media(max-width: 990px){
+            margin-top: 30px;
+        }
+    
+
+    @media(max-width: 750px){
+        margin-right: 70px;
+        p{
+            font-size: 1.2rem;
+        }
+      
+    }
+    @media(max-width: 700px){
+        margin-right: 40px;
+}
+@media(max-width: 600px){
+    margin-right: 20px;
+}
+@media(max-width: 550px){
+    margin-right: 0px;
+}
+@media(max-width: 420px){
+    p{
+       font-size: 1rem;
+    }
+    button{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 350px){
+    button{
+        font-size: 0.7rem;
+    }
+}
+}
+ 
+.header-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+.br-text{
+    display: none;
+}
+    @media (max-width: 1050px) {
+        font-size: 1.2rem;
+    } 
+
+    @media(max-width: 1000px) {
+        font-size: 1rem;
+    }
+
+    @media(max-width: 920px) {
+        
+        font-weight: 900;
+
+        .br-text{
+            display: block;
+        }
+    }
+    @media(max-width: 750px){
+        display: none;
+    }
+
+   
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+
+ul li {
+     margin: 0 25px;
+
+     @media(max-width: 1250px){
+        margin: 0 20px;
+     }
+
+     @media(max-width: 1166px){
+        margin: 0 15px;
+     }
+
+     @media(min-width: 990px){
+        margin: 0 8px;
+     }
+}
+ .navbar-light .nav-item .nav-link  {
+    color: #000;
+
+    &:hover,
+    &:focus
+    {
+        color: #20B2AA;
+    }
+}

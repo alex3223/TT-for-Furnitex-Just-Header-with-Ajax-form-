@@ -1,0 +1,80 @@
+@media (max-width: 920px) {
+
+    .main-content {
+      position: static;
+      flex-direction: column;
+    }
+
+    .registration {
+        margin-top: 135px;
+        padding-top: 0;
+    }
+ }
+
+ @media (max-width: 850px) {
+
+     .registration {
+        margin-top: 100px;
+     }
+ }
+
+ @media (max-width: 760px) {
+     
+    .registration {
+       margin-top: 80px;
+    }
+}
+
+@media (max-width: 720px) {
+     
+    .job-desc {
+       h1 {
+           font-size: 1.4rem;
+       }
+       p {
+           font-size: 1.2rem;
+       }
+    }
+
+    .registration {
+        margin-top: 160px;
+     }
+}
+
+@media (max-width: 680px) {
+     
+    .registration {
+       margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 580px) {
+     
+    .job-desc {
+       
+       p {
+           font-size: 1rem;
+       }
+    }
+
+    .registration {
+        margin-top: 60px;
+     }
+}
+
+@media (max-width: 530px) {
+     
+    .job-desc {
+        p {
+            font-size: 0.8rem;
+        }
+       button {
+           font-size: 60%;
+       }
+    }
+
+    .registration {
+        margin-top: 50px;
+     }
+}
